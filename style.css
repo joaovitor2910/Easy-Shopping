@@ -18,6 +18,11 @@ header {
         justify-content: space-around;
     }
 
+
+    li:nth-child(2) {
+        opacity: 40%;
+    }
+
     li {
         color:#5D5D7D;
         font-size: 1.5em;
@@ -26,9 +31,6 @@ header {
         cursor: pointer;
     }
 
-    span {
-        opacity: 40%;
-    }
 }
 
 main {
